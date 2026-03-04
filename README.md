@@ -7,6 +7,7 @@
 ![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-2ea44f?style=for-the-badge)
 ![Timeline](https://img.shields.io/badge/Completed_In-20_Days_(2_Month_Deadline)-8A2BE2?style=for-the-badge)
 
@@ -71,6 +72,7 @@ telecom-churn-analysis/
 │   └── executive_recommendations.txt     # Business summary
 │
 ├── telecom_churn_analysis.ipynb           # 📓 Main analysis notebook
+├── app.py                                 # 🚀 Streamlit dashboard
 ├── requirements.txt                       # Dependencies
 └── README.md
 ```
@@ -151,6 +153,74 @@ telecom-churn-analysis/
 
 ---
 
+## 🚀 Deployment — Streamlit Dashboard
+
+This project includes an interactive **Streamlit web app** (`app.py`) that visualizes churn insights and risk scores in real time.
+
+### 🖥️ Run Locally
+
+**Step 1 — Clone the repository**
+```bash
+git clone https://github.com/Gudurupavankumarreddy/Telecom-Customer-Retention-Analysis-.git
+cd Telecom-Customer-Retention-Analysis-
+```
+
+**Step 2 — Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+**Step 3 — Run the app**
+```bash
+streamlit run app.py
+```
+
+**Step 4 — Open in browser**
+```
+http://localhost:8501
+```
+
+---
+
+### ☁️ Deploy to Streamlit Cloud (Free & Public)
+
+> Share your live dashboard with anyone — no server needed!
+
+**Step 1:** Go to [https://streamlit.io/cloud](https://streamlit.io/cloud) and sign in with GitHub
+
+**Step 2:** Click **"New app"**
+
+**Step 3:** Fill in the details:
+```
+Repository : Gudurupavankumarreddy/Telecom-Customer-Retention-Analysis-
+Branch     : main
+Main file  : app.py
+```
+
+**Step 4:** Click **"Deploy"** — your app goes live in ~2 minutes at:
+```
+https://your-app-name.streamlit.app
+```
+
+**Step 5:** Copy the live URL and add it to your resume and LinkedIn! 🎯
+
+---
+
+### 📋 Requirements for Deployment
+
+Make sure your `requirements.txt` includes:
+```
+pandas>=1.5.0
+numpy>=1.23.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+scikit-learn>=1.1.0
+joblib>=1.2.0
+streamlit>=1.20.0
+```
+
+---
+
 ## 🛠️ Tech Stack
 
 ```python
@@ -169,48 +239,9 @@ scikit-learn
 
 # Model Persistence
 joblib
-```
 
----
-
-## 🚀 How to Run This Project
-
-**Step 1 — Clone the repository**
-```bash
-git clone https://github.com/YOUR_USERNAME/telecom-churn-analysis.git
-cd telecom-churn-analysis
-```
-
-**Step 2 — Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-**Step 3 — Download the dataset**
-
-📥 Dataset: [Telco Customer Churn — Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
-
-Place the downloaded file at: `data/telco_churn.csv`
-
-**Step 4 — Run the notebook**
-```bash
-jupyter notebook telecom_churn_analysis.ipynb
-```
-
-> Run all cells top to bottom: **Kernel → Restart & Run All**
-
----
-
-## 📦 Requirements
-
-```
-pandas>=1.5.0
-numpy>=1.23.0
-matplotlib>=3.6.0
-seaborn>=0.12.0
-scikit-learn>=1.1.0
-joblib>=1.2.0
-jupyter>=1.0.0
+# Dashboard
+streamlit
 ```
 
 ---
@@ -239,6 +270,7 @@ I was given a real telecom dataset and tasked with delivering an end-to-end chur
 **What this demonstrates:**
 - ✅ Full data analyst workflow — raw data → business insights
 - ✅ Machine learning pipeline: preprocessing, training, evaluation
+- ✅ Interactive Streamlit dashboard for real-time exploration
 - ✅ Business storytelling and ROI modeling — not just charts
 - ✅ Clean, structured, reproducible code
 
