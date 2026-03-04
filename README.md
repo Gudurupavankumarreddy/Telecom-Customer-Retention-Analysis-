@@ -259,20 +259,6 @@ streamlit
 | `risk_scoring_performance.png` | ML model performance & risk tiers |
 | `churn_drivers.png` | Top 20 features influencing churn |
 
----
-
-## 🏢 About This Project
-
-This project was built during a **Data Analytics Internship at Cedura** (Dec 2025 – Feb 2026).
-
-I was given a real telecom dataset and tasked with delivering an end-to-end churn analysis — independently. I completed the full pipeline in **20 days against a 2-month deadline**, covering data cleaning, segmentation, revenue modeling, machine learning, and executive-level recommendations.
-
-**What this demonstrates:**
-- ✅ Full data analyst workflow — raw data → business insights
-- ✅ Machine learning pipeline: preprocessing, training, evaluation
-- ✅ Interactive Streamlit dashboard for real-time exploration
-- ✅ Business storytelling and ROI modeling — not just charts
-- ✅ Clean, structured, reproducible code
 
 ---
 
