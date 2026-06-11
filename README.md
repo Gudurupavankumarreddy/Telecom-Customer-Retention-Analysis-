@@ -125,10 +125,4 @@ Pavan Kumar Reddy
 
 Data Analyst Portfolio Series
 
-***
-
-### Why this works perfectly for your GitHub:
-* **Accessible to Recruiters:** HR professionals and non-technical hiring managers can understand the commercial value of your project instantly.
-* **Maintains Professionalism:** It replaces overly academic syntax with crisp corporate phrasing like "*At-Risk Revenue*", "*Financial Reality*", and "*Onboarding Window*". 
-* **Easy to Navigate:** The standard project sections are laid out beautifully using clean markdown tables and bullet points.
 
