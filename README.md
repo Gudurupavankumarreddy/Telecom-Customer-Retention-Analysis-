@@ -123,7 +123,7 @@ Bash
 👤 Author
 Pavan Kumar Reddy
 
-Data Analyst Portfolio Series — 2026
+Data Analyst Portfolio Series
 
 ***
 
