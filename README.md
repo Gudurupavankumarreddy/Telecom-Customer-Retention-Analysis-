@@ -29,16 +29,30 @@ To make these insights actionable, the project includes an interactive web appli
 * Total analyzed customer base: **7,043 subscribers**
 * Current churn rate: **26.5%**
 * Total annual financial impact: **Over $2.1M** in combined lost yearly revenue and wasted customer acquisition costs (CAC).
+---
+
+![Revenue Impact Analysis](output/revenue_impact_analysis.png)
+
+---
 
 ### 2. The "High-Risk" Customer Profile
 The data revealed a highly vulnerable group of subscribers: **Customers on Month-to-month contracts, who have been with the company for less than a year, and whose monthly bills are above average.**
 * This specific group has a staggering **70.5% churn rate**.
 * **The Onboarding Window:** The first 6 months are critical. New customers experience a **52.9% churn rate**. If a customer crosses the 24-month mark, their likelihood of leaving drops drastically.
 
+---
+
+![Churn by Lifecycle Stage](output/churn_by_lifecycle_stage.png)
+![Cohort Churn Analysis](output/cohort_churn_analysis.png)
+
+---
+
 ### 3. Key Behavioral Triggers
 * **Contracts Matter:** Month-to-month customers are **3.8 times more likely to churn** than customers on annual contracts.
 * **Payment Methods:** Customers paying via electronic check churn at a much higher rate than those enrolled in automatic billing (credit card or bank transfer).
 * **Support Infrastructure:** Subscribers who do not have technical support bundled into their plans leave at noticeably higher rates.
+
+![Churn by Contract Type](output/churn_by_contract_type.png)
 
 ---
 
@@ -49,6 +63,8 @@ To find the best balance between spotting actual churners and avoiding false ala
 * **Overall Accuracy (79.1%):** The system correctly identifies the outcome for nearly 8 out of 10 customers.
 * **Precision (61.2%):** When the model flags a customer as "High Risk", they are right over 60% of the time.
 * **Recall (55.1%):** The model successfully catches a strong majority of the people who are planning to leave.
+
+![Risk Scoring Model Performance](output/risk_scoring_performance.png)
 
 
 TOP CHURN RISK FACTORS:
@@ -62,6 +78,9 @@ TOP CHURN RISK FACTORS:
 4. Fiber Optic Internet (Higher price points)
 
 5. Missing Tech Support Add-on
+
+![Top Churn Drivers](output/churn_drivers.png)
+![SHAP Summary Plot](output/shap_summary.png)
 
 ---
 
